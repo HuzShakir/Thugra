@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "Thuggah"
+  "defaultProject": "Thuggah",
+  "cli": {
+    "analytics": "115f9d41-3624-44fa-bfe9-1b1488cae91e"
+  }
 }

@@ -1,0 +1,1 @@
+export interface results extends Array<data>

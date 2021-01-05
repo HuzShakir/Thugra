@@ -1,0 +1,7 @@
+<div class="row">
+    <h1>{{title}}</h1>
+    <div class="row_posters">
+        <div *ngFor="let movie of yes.results">
+        <img class="row_poster" [src]="img_url+movie.backdrop_path" alt="">
+        </div>
+    </div>

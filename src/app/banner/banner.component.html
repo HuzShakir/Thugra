@@ -1,0 +1,11 @@
+<div class="banner" [ngStyle]="{'background-image': getUrl()}">
+    <div class="banner_content">
+        <div class="banner_title">
+            <h1>{{nice.title || nice.original_title}}</h1>
+        </div>
+        <button class="banner_button">Play</button><button class="banner_button">List</button>
+        <div class="banner_description">{{ (nice.overview.length>150)? (nice.overview | slice:0:150)+'...':(nice.overview) }}</div>
+        
+    </div>
+    <div class="banner_fade"></div>
+</div>
